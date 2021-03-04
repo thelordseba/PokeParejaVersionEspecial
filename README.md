@@ -1,6 +1,7 @@
 ## PokeParejas - Juego de Memoria desarrollado con React.js
 
 Juego para entrenar la memoria hecho totalmente en React js, inspirado en Pokémon.
+Versión especial. Cuenta como intentos solo aquellos en donde no se halló coincidencias.
 
 Aquí dejo el enlace para que lo puedas probar:
 [Poke parejas](https://thelordseba.github.io/PokePareja/)

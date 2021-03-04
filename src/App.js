@@ -84,13 +84,16 @@ class App extends Component{
             return {...carta, fueAdivinada: true};
           }
         });
+      } else {
+        this.setState({          
+          numeroDeIntentos: this.state.numeroDeIntentos + 1        
+        });        
       }
 
       this.setState({
         baraja: baraja,
         parejaSeleccionada: [],
-        estaComparando: false,
-        numeroDeIntentos: this.state.numeroDeIntentos + 1        
+        estaComparando: false        
       });
 
       this.verificarGanador(baraja);
