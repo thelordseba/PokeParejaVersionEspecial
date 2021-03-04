@@ -1,0 +1,27 @@
+.tablero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 570px;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 750px){   
+    .tablero{       
+        width: 300px;
+        height: 250px;     
+        margin-top: 50px;            
+    }
+}
+
+@media screen and (max-width: 414px){   
+    .tablero{       
+        width: 320px;
+        height: 472px;     
+        margin-top: 50px;            
+    }
+}
+
+

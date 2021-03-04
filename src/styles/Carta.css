@@ -1,0 +1,89 @@
+.carta{
+    width: 125px;
+    height: 125px;       
+}
+
+.icono{
+    height: 80%; 
+    width: 80%;
+}
+
+.front{
+    width: 125px;
+    height: 125px;   
+    /* background-color: #F5F5F5; */
+    border-radius: 50%;
+    background-image: url("/src/images/PokéballReducida.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.back{
+    width: 125px;
+    height: 125px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(235, 235, 235, 0.966);  
+    border-radius: 50%;
+    border: 1px solid rgb(12, 21, 59);
+}
+
+.ReactFlipCard{
+    width: 100%;
+    height: 100%;   
+}
+
+.front:hover{
+    width: 130px;
+    height: 130px;   
+}
+
+@media screen and (max-width: 750px){   
+    .carta{
+        width: 55px;
+        height: 55px;       
+    }
+    
+    .front{
+        width: 55px;
+        height: 55px;   
+
+    }
+    
+    .back{
+        width: 55px;
+        height: 55px;    
+
+    }
+
+    .front:hover{
+        width: 55px;
+        height: 55px;   
+    }
+}
+
+@media screen and (max-width: 414px){   
+    .carta{
+        width: 65px;
+        height: 65px;       
+    }
+    
+    .front{
+        width: 65px;
+        height: 65px;   
+
+    }
+    
+    .back{
+        width: 65px;
+        height: 65px;    
+
+    }
+
+    .front:hover{
+        width: 65px;
+        height: 65px;   
+    }
+}
+

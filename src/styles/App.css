@@ -1,0 +1,12 @@
+body{
+  background-image: url("/src/images/fondo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #FFB101;
+}
+
+div:focus{
+  outline: none !important;
+}

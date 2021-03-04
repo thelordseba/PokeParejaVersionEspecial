@@ -1,0 +1,47 @@
+header{
+    height: 50px;  
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.titulo{
+    font-size: 30px;
+    padding: 10px;    
+    color: rgb(255, 243, 1);
+    font-weight: bold;
+}
+
+.boton-reiniciar{
+    background-color: rgb(234, 0, 18);
+    border-radius: 8px;
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 58px; 
+    color:white;   
+    /* border:0px; */
+    border: 2px solid black;
+}
+
+.boton-reiniciar:hover {
+    background-color: rgb(155, 25, 35);
+}    
+
+@media screen and (max-width: 414px){   
+    header{
+        height: 70px;                
+    }
+
+    .boton-reiniciar{
+        margin-top: 5px;
+    }
+
+    .titulo{
+        font-size: 25px;
+        padding: 10px;      
+    }
+}
